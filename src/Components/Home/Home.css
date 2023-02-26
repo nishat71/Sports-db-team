@@ -1,0 +1,39 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top:10px;
+}
+.search-input{
+    padding:15px;
+    width:50%;
+}
+.search-btn{
+    padding:17px 20px;
+    background-color: blue;
+    color:#fff;
+    border:none;
+    font-weight: 600;
+}
+.cart{
+    border:1px solid gray;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+    padding:20px;
+    margin-right: 10px;
+}
+.player-cart {
+    margin-top: 80px;
+}
+
+.cart-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5px;
+}
+.delete-btn{
+    background-color: red;
+    padding:5px 10px;
+    margin-left:5px;
+    border:1px solid #000;
+}
